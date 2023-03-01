@@ -4,7 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+$select-color: #ff838d;
+
 body {
   background-color: #191717;
   font-family: 'Cabin', sans-serif;
+}
+
+::-moz-selection {
+  background-color: $select-color;
+}
+
+::selection {
+  background-color: $select-color;
 }
