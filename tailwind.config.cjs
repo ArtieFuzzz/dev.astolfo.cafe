@@ -9,7 +9,7 @@ module.exports = {
           css: {
             '--tw-prose-pre-bg': 'transparent',
             '--tw-prose-headings': '#ff838d',
-            '--tw-prose-links': 'white',
+            '--tw-prose-links': 'white'
           }
         }
       })
