@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
   import { fade } from 'svelte/transition';
 </script>
