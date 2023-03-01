@@ -18,3 +18,15 @@ body {
 ::selection {
   background-color: $select-color;
 }
+
+.main-window {
+  width: 100vw;
+}
+
+.side-bar {
+  width: 10vw;
+}
+a {
+  text-decoration: none;
+  @apply text-xl;
+}
