@@ -2,7 +2,7 @@
 <script>
   import { fade } from 'svelte/transition';
   import AboutMe from '../components/AboutMe.svelte';
-  import LinkedRepos from '../components/LinkedReposAndLanyard.svelte';
+  import LanguagesAndLanyardStats from '../components/LanguagesAndLanyardStats.svelte';
   import SideBar from '../components/SideBar.svelte';
 </script>
 
@@ -15,7 +15,7 @@
 
       <AboutMe />
 
-      <LinkedRepos />
+      <LanguagesAndLanyardStats />
     </div>
   </div>
 
