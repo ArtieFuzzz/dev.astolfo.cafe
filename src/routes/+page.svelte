@@ -33,8 +33,4 @@
   h1 {
     margin: 0;
   }
-
-  span {
-    color: white;
-  }
 </style>

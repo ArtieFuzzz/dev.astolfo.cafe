@@ -26,7 +26,12 @@ body {
 .side-bar {
   width: 15vw;
 }
+
 a {
   text-decoration: none;
   @apply text-xl;
+}
+
+span {
+  color: white;
 }
