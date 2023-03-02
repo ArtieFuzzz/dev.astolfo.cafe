@@ -3,7 +3,7 @@
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
 </script>
 
-<div class="flex flex-row justify-start items-start mt-12">
+<div class="flex flex-row justify-start items-start mt-6">
   <div class="w-[20vw] flex flex-col justify-start items-start">
     <h2>Languages</h2>
     <ol>
