@@ -1,9 +1,12 @@
 <script>
-
+    import { backInOut } from 'svelte/easing';
     import { fade } from 'svelte/transition';
-
 </script>
-<div class="side-bar flex flex-col justify-center items-center ml-10" transition:fade={{duration: 1000}}>
+
+<div
+  class="side-bar flex flex-col justify-center items-center ml-10"
+  transition:fade={{ delay: 500, duration: 1000, easing: backInOut }}
+>
   <h2>Side-bar</h2>
   <a href="https://github.com/ArtieFuzzz" class="link">Github</a>
   <a href="/" class="link">Privacy Policy</a>

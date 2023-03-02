@@ -1,9 +1,13 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
+  import { sineIn } from 'svelte/easing';
   import { fade } from 'svelte/transition';
 </script>
 
-<div class="flex flex-col justify-start items-start mt-10" transition:fade={{ duration: 1000 }}>
+<div
+  class="flex flex-col justify-start items-start mt-10"
+  transition:fade={{ duration: 1000, easing: sineIn }}
+>
   <p>I've been teaching myself programming ever since 2020 and I blame Discord.</p>
   <p>
     I first taught myself JavaScript using it to code bots using the <a
