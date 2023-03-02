@@ -5,6 +5,7 @@
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
 
   const lanyardData = useLanyard({ method: 'ws', id: '389252140184633363' });
+  let lanyardLoaded = false;
 </script>
 
 <div class="flex flex-row justify-start items-start mt-6">
@@ -28,20 +29,38 @@
         <li>
           <p>I'm currently <code>{$lanyardData.discord_status}</code></p>
         </li>
+
+        <li>
+          {#if $lanyardData.activities.filter((activity) => activity.type === 0).length > 0}
+            <!-- This is most likely inefficient but it does the trick .w. -->
+            <p>
+              <code
+                >Playing: {$lanyardData.activities.filter((activity) => activity.type === 0)[0]
+                  .name} | {$lanyardData.activities.filter((activity) => activity.type === 0)[0]
+                  .state}</code
+              >
+            </p>
+          {:else}
+            <p>Doing <code>Nothing</code></p>
+          {/if}
+        </li>
+
         <li>
           {#if $lanyardData.listening_to_spotify}
             <p>
-              I'm listening to <code>{$lanyardData.spotify.song}</code> by
+              Listening to <code>{$lanyardData.spotify.song}</code> by
               <code>{$lanyardData.spotify?.artist}</code>
               on <code>{$lanyardData.spotify?.album}</code>
             </p>
           {:else}
-            <p>I'm not listening to anything...</p>
+            <p>Listening to nothing...</p>
           {/if}
         </li>
       </ul>
-    {:else}
+    {:else if !lanyardLoaded}
       <p>Loading...</p>
+    {:else}
+      <p>Updating...</p>
     {/if}
   </div>
 </div>
