@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="w-screen h-screen flex flex-col justify-center items-start"
+  class="w-[75vw] h-screen flex flex-col justify-center items-start"
   transition:fade={{ duration: 500, easing: sineIn }}
 >
   <div class="m-20">
