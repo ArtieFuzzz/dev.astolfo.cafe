@@ -3,7 +3,7 @@
   import { backIn } from 'svelte/easing';
   import { fade } from 'svelte/transition';
   import AboutMe from '../components/AboutMe.svelte';
-  import LanguagesAndLanyardStats from '../components/LanguagesAndLanyardStats.svelte';
+  import Metadata from '../components/Metadata.svelte';
   import SideBar from '../components/SideBar.svelte';
 
   const chance = Math.ceil(Math.random() * 100) / 100;
@@ -22,7 +22,7 @@
 
       <AboutMe />
 
-      <LanguagesAndLanyardStats />
+      <Metadata />
     </div>
   </div>
 
