@@ -25,7 +25,8 @@
     >)
   </p>
   <p>
-    Since I first started using Rust I couldn't stop using it and till this day I'm still using it.
+    Since I first started using Rust I couldn't stop using it and till this day I use it to create
+    tools, etc.
   </p>
   <br />
   <p>Other than programming I also love Gaming, Music, and Open-Source.</p>
