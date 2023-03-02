@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
-    import { backIn } from 'svelte/easing';
-    import { fade } from 'svelte/transition';
-    import AboutMe from '../components/AboutMe.svelte';
-    import LanguagesAndLanyardStats from '../components/LanguagesAndLanyardStats.svelte';
-    import SideBar from '../components/SideBar.svelte';
+  import { backIn } from 'svelte/easing';
+  import { fade } from 'svelte/transition';
+  import AboutMe from '../components/AboutMe.svelte';
+  import LanguagesAndLanyardStats from '../components/LanguagesAndLanyardStats.svelte';
+  import SideBar from '../components/SideBar.svelte';
 
-    const chance =  Math.ceil(Math.random() * 100) / 100;
+  const chance = Math.ceil(Math.random() * 100) / 100;
 </script>
 
 <div class="h-screen w-screen flex flex-row justify-evenly items-start">
@@ -14,9 +14,9 @@
     <div class="flex flex-col justify-start items-start">
       <h1 class="text-4xl sm:text-5xl md:text-7xl m-2">
         {#if chance < 0.99}
-        Hi, I'm Artie <span>[Fuzzz]</span>!
+          Hi, I'm Artie <span>[Fuzzz]</span>!
         {:else}
-        Hi, I'm <span>[Not]</span> Artsy!
+          Hi, I'm <span>[Not]</span> Artsy!
         {/if}
       </h1>
 

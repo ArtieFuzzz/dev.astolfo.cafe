@@ -24,10 +24,7 @@
       >I have attempted to learn C / C++, Dart, and Go</span
     >)
   </p>
-  <p>
-    Since I first started using Rust I couldn't stop using it, I use it to create
-    tools, etc.
-  </p>
+  <p>Since I first started using Rust I couldn't stop using it, I use it to create tools, etc.</p>
   <br />
   <p>Other than Programming I also love Gaming, Music, and Open-Source.</p>
 </div>

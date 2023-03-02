@@ -24,21 +24,22 @@
   <div class="flex flex-col justify-start items-start">
     <h2>Lanyard Statistics</h2>
     {#if $lanyardData}
-    <ul>
-      <li>
-        <p>I'm currently <code>{$lanyardData.discord_status}</code></p>
-      </li>
-      <li>
-        {#if $lanyardData.listening_to_spotify}
-          <p>
-            I'm listening to <code>{$lanyardData.spotify.song}</code> by <code>{$lanyardData.spotify?.artist}</code> on <code>{$lanyardData
-              .spotify?.album}</code>
-          </p>
-        {:else}
-          <p>I'm not listening to anything...</p>
-        {/if}
-      </li>
-    </ul>
+      <ul>
+        <li>
+          <p>I'm currently <code>{$lanyardData.discord_status}</code></p>
+        </li>
+        <li>
+          {#if $lanyardData.listening_to_spotify}
+            <p>
+              I'm listening to <code>{$lanyardData.spotify.song}</code> by
+              <code>{$lanyardData.spotify?.artist}</code>
+              on <code>{$lanyardData.spotify?.album}</code>
+            </p>
+          {:else}
+            <p>I'm not listening to anything...</p>
+          {/if}
+        </li>
+      </ul>
     {:else}
       <p>Loading...</p>
     {/if}
@@ -58,10 +59,5 @@
     margin: 0;
     color: #ff838d;
     @apply font-mono text-lg;
-  }
-
-  code {
-    background-color: white;
-    color: black;
   }
 </style>

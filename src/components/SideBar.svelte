@@ -1,6 +1,6 @@
 <script>
-    import { backInOut } from 'svelte/easing';
-    import { fade } from 'svelte/transition';
+  import { backInOut } from 'svelte/easing';
+  import { fade } from 'svelte/transition';
 </script>
 
 <div

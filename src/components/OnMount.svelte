@@ -4,7 +4,9 @@
 
   let isLoaded = false;
 
-  onMount(() => {isLoaded = true});
+  onMount(() => {
+    isLoaded = true;
+  });
 </script>
 
 {#if isLoaded}
