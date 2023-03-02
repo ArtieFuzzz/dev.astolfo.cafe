@@ -2,6 +2,8 @@
 <script>
   import { fade } from 'svelte/transition';
   import AboutMe from '../components/AboutMe.svelte';
+  import LinkedRepos from '../components/LinkedRepos.svelte';
+  import SideBar from '../components/SideBar.svelte';
 </script>
 
 <div class="h-screen w-screen flex flex-row justify-evenly items-start">
@@ -13,22 +15,11 @@
 
       <AboutMe />
 
-      <div class="flex flex-row justify-evenly items-center mt-12">
-        <div class="flex flex-col justify-start items-start">
-          <h2>Check out some of my Repositories!</h2>
-          <ul>
-            <li>
-              <a href="/">This leads to nothing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <LinkedRepos />
     </div>
   </div>
 
-  <div class="side-bar flex flex-col justify-center items-start">
-    <h2>Side-bar</h2>
-  </div>
+  <SideBar />
 </div>
 
 <style lang="scss">
