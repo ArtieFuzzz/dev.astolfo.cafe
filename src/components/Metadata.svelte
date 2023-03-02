@@ -3,6 +3,7 @@
   import { useLanyard } from 'sk-lanyard';
 
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
+  const roles = ['Developer', 'Sys-admin'];
 
   const lanyardData = useLanyard({ method: 'ws', id: '389252140184633363' });
   let lanyardLoaded = false;
@@ -15,6 +16,19 @@
       {#each languages as lang}
         <li>
           <p>{lang}</p>
+        </li>
+      {/each}
+
+      <li><p>...</p></li>
+    </ol>
+  </div>
+
+  <div class="w-[20vw] flex flex-col justify-start items-start">
+    <h2>Roles</h2>
+    <ol>
+      {#each roles as role}
+        <li>
+          <p>{role}</p>
         </li>
       {/each}
 
