@@ -9,7 +9,7 @@
 >
   <h2>Side-bar</h2>
   <a href="https://github.com/ArtieFuzzz" class="link">Github</a>
-  <a href="/" class="link">Privacy Policy</a>
+  <a href="/privacy" class="link">Privacy Policy</a>
   <p>read if cute!</p>
 </div>
 
