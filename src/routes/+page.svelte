@@ -6,7 +6,7 @@
     import LanguagesAndLanyardStats from '../components/LanguagesAndLanyardStats.svelte';
     import SideBar from '../components/SideBar.svelte';
 
-    const chance = Math.ceil(Math.random() * 100) / 100;
+    const chance =  Math.ceil(Math.random() * 100) / 100;
 </script>
 
 <div class="h-screen w-screen flex flex-row justify-evenly items-start">
@@ -16,7 +16,7 @@
         {#if chance < 0.99}
         Hi, I'm Artie <span>[Fuzzz]</span>!
         {:else}
-        Hi, I'm Not <span>[Artsy]</span>!
+        Hi, I'm <span>[Not]</span> Artsy!
         {/if}
       </h1>
 

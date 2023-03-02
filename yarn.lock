@@ -23,6 +23,7 @@ __metadata:
     prettier: ^2.8.4
     prettier-plugin-svelte: ^2.9.0
     sass: ^1.58.0
+    sk-lanyard: ^0.1.7
     svelte: ^3.55.1
     svelte-check: ^3.0.3
     svelte-preprocess: ^5.0.1
@@ -2786,6 +2787,16 @@ __metadata:
     mrmime: ^1.0.0
     totalist: ^3.0.0
   checksum: 6982f8ecee9392d246d7eeea8144e50334fe1b46a4fa942995a844ea88c2d518b17cce781bb09926c9a5692a7002a207d18dfd67af2aa538a15e733dc2042298
+  languageName: node
+  linkType: hard
+
+"sk-lanyard@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "sk-lanyard@npm:0.1.7"
+  peerDependencies:
+    svelte: ^3.44.0
+    vite: ^3.0.0
+  checksum: ffd3b8d2083326e48d5a14f57152b0699713f761f0d480f66e85b6c220e85cc51f77b6a5ffc6e26b08f5b04486b29071bc4963fa6929ea80bcb922e722e97abc
   languageName: node
   linkType: hard
 
