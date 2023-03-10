@@ -9,6 +9,7 @@
 >
   <h2>Side-bar</h2>
   <a href="https://github.com/ArtieFuzzz" class="link">Github</a>
+  <a href="https://www.codewars.com/users/ArtieFuzzz" class="link">CodeWars</a>
   <a href="/privacy" class="link">Privacy Policy</a>
   <p>read if cute!</p>
 </div>
