@@ -10,12 +10,12 @@
 >
   <p>I've been teaching myself programming ever since 2020 and I blame Discord.</p>
   <p>
-    I first taught myself JavaScript using it to code bots using the <a
+    I first taught myself JavaScript using it to code bots using <a
       href="https://discord-akairo.github.io/#/">Akairo</a
     > which is now left unmaintained,
   </p>
   <p>
-    then I learned TypeScript and continued creating some bots with <a
+    then I learned TypeScript and continued creating bots with <a
       href="https://www.sapphirejs.dev/">Sapphire</a
     >,
   </p>
@@ -24,7 +24,8 @@
       >I have attempted to learn C / C++, Dart, and Go</span
     >)
   </p>
-  <p>Since I first started using Rust I couldn't stop using it, I use it to create tools, etc.</p>
+  <p>Ever since I started using Rust I use it whenever possible, write tooling, libraries, etc.</p>
+  <p>Now I'm learning DevOps and Networking.</p>
   <br />
   <p>Other than Programming I also love Gaming, Music, and Open-Source.</p>
 </div>

@@ -3,7 +3,7 @@
   import { useLanyard } from 'sk-lanyard';
 
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
-  const roles = ['Developer', 'Sys-admin'];
+  const roles = ['Software Developer', 'DevOps'];
 
   const lanyardData = useLanyard({ method: 'ws', id: '389252140184633363' });
   let lanyardLoaded = false;
@@ -19,7 +19,7 @@
         </li>
       {/each}
 
-      <li><p>...</p></li>
+      <ul><p>...</p></ul>
     </ol>
   </div>
 
@@ -32,7 +32,7 @@
         </li>
       {/each}
 
-      <li><p>...</p></li>
+      <ul><p>...</p></ul>
     </ol>
   </div>
 
@@ -70,6 +70,8 @@
             <p>Listening to nothing...</p>
           {/if}
         </li>
+
+        <ul><p>...</p></ul>
       </ul>
     {:else if !lanyardLoaded}
       <p>Loading...</p>
