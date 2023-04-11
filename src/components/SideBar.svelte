@@ -10,7 +10,7 @@
   <h2>Side-bar</h2>
   <a href="https://github.com/ArtieFuzzz" class="link">Github</a>
   <a href="https://www.codewars.com/users/ArtieFuzzz" class="link">CodeWars</a>
-  <a href="/artiefuzzz_public.asc" class="link">Public Key</a>
+  <a href="https://keys.openpgp.org/search?q=7BBCA38F3B5818B9B444FF3B44AE5B04A30D8CAE" class="link">PGP</a>
   <a href="/privacy" class="link">Privacy Policy</a>
   <p>read if cute!</p>
 </div>
