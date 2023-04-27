@@ -9,7 +9,7 @@
   let lanyardLoaded = false;
 </script>
 
-<div class="flex flex-row justify-start items-start mt-6">
+<div class="grid grid-flow-row grid-rows-2 sm:flex sm:flex-row justify-start items-start mt-6">
   <div class="w-[20vw] flex flex-col justify-start items-start">
     <h2>Languages</h2>
     <ol>
