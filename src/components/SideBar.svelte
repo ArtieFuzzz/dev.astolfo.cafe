@@ -8,11 +8,12 @@
   transition:fade={{ delay: 500, duration: 1000, easing: backInOut }}
 >
   <h2>Side-Bar</h2>
-  <a href="/projects" class="link">Projects</a>
-  <a href="https://github.com/ArtieFuzzz" class="link">Github</a>
-  <a href="https://www.codewars.com/users/ArtieFuzzz" class="link">CodeWars</a>
-  <a href="https://keys.openpgp.org/search?q=7BBCA38F3B5818B9B444FF3B44AE5B04A30D8CAE" class="link">PGP</a>
-  <a href="/privacy" class="link">Privacy Policy</a>
+  <a href="/projects">Projects</a>
+  <a href="https://github.com/ArtieFuzzz">Github</a>
+  <a href="https://www.codewars.com/users/ArtieFuzzz">CodeWars</a>
+  <a href="https://sr.ht/~artiefuzzz">sr.ht</a>
+  <a href="https://keys.openpgp.org/search?q=7BBCA38F3B5818B9B444FF3B44AE5B04A30D8CAE">PGP</a>
+  <a href="/privacy">Privacy Policy</a>
   <p>read if cute!</p>
 </div>
 
@@ -22,9 +23,6 @@
     background-color: #007c72;
     padding: 5px;
     @apply font-mono;
-  }
-
-  .link {
     margin-bottom: 10px;
   }
 </style>
