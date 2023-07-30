@@ -8,5 +8,10 @@
     "name": "u-v-v-u/web",
     "description": "Homepage of the UvvU Org.",
     "url": "https://github.com/u-v-v-u/web"
+  },
+  {
+    "name": "genlicense",
+    "description": "A CLI utility to quickly generate a license file, in the terminal!",
+    "url": "https://git.sr.ht/~artiefuzzz/genlicense"
   }
 ]
