@@ -25,7 +25,7 @@
     >)
   </p>
   <p>Ever since I started using Rust I use it whenever possible, write tooling, libraries, etc.</p>
-  <p>Now I'm learning DevOps and Networking.</p>
+  <p>Now I'm learning how to use Nix.</p>
   <br />
   <p>Other than Programming I also love Gaming, Music, and Open-Source.</p>
 </div>
