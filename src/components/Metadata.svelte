@@ -38,46 +38,7 @@
 
   <div class="flex flex-col justify-start items-start">
     <h2>Lanyard Statistics</h2>
-    {#if $lanyardData}
-      <ul>
-        <li>
-          <p>I'm currently <code>{$lanyardData.discord_status}</code></p>
-        </li>
 
-        <li>
-          {#if $lanyardData.activities.filter((activity) => activity.type === 0).length > 0}
-            <!-- This is most likely inefficient but it does the trick .w. -->
-            <p>
-              <code
-                >Playing: {$lanyardData.activities.filter((activity) => activity.type === 0)[0]
-                  .name} | {$lanyardData.activities.filter((activity) => activity.type === 0)[0]
-                  .state}</code
-              >
-            </p>
-          {:else}
-            <p>Doing <code>Nothing</code></p>
-          {/if}
-        </li>
-
-        <li>
-          {#if $lanyardData.listening_to_spotify}
-            <p>
-              Listening to <code>{$lanyardData.spotify.song}</code> by
-              <code>{$lanyardData.spotify?.artist}</code>
-              on <code>{$lanyardData.spotify?.album}</code>
-            </p>
-          {:else}
-            <p>Listening to nothing...</p>
-          {/if}
-        </li>
-
-        <ul><p>...</p></ul>
-      </ul>
-    {:else if !lanyardLoaded}
-      <p>Loading...</p>
-    {:else}
-      <p>Updating...</p>
-    {/if}
   </div>
 </div>
 
