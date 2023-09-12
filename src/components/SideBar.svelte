@@ -10,8 +10,8 @@
   <h2>Side-Bar</h2>
   <a href="/projects">Projects</a>
   <a href="https://github.com/ArtieFuzzz">Github</a>
-  <a href="https://www.codewars.com/users/ArtieFuzzz">CodeWars</a>
   <a href="https://sr.ht/~artiefuzzz">sr.ht</a>
+  <a href="https://www.codewars.com/users/ArtieFuzzz">CodeWars</a>
   <a href="/contact.asc">PGP</a>
   <a href="mailto:hey@astolfo.cafe">Email me!</a>
   <a href="/privacy">Privacy Policy</a>
