@@ -23,9 +23,9 @@
       </p>
 
       <p>
-        This website does not store any data but this site uses Umami for Analytical
-        purposes, we use a self-hosted instance @ analytics.astolfo.cafe. This website does not track you
-        in any way across websites nor do we sell your Information to Third-Parties.
+        This website does not store any data but this site uses Umami for Analytical purposes, we
+        use a self-hosted instance @ analytics.astolfo.cafe. This website does not track you in any
+        way across websites nor do we sell your Information to Third-Parties.
       </p>
     </div>
   </div>
@@ -37,7 +37,6 @@
     color: #ff838d;
     @apply font-mono text-lg;
   }
-
 
   a {
     @apply font-mono;

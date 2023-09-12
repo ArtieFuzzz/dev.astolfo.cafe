@@ -8,7 +8,7 @@
 
   const chance = Math.ceil(Math.random() * 100) / 100;
 
-  console.info(`Your chances were ${chance}`)
+  console.info(`Your chances were ${chance}`);
 </script>
 
 <div class="h-screen w-screen flex flex-row justify-evenly items-start">
