@@ -27,11 +27,6 @@
         purposes, we use a self-hosted instance @ analytics.astolfo.cafe. This website does not track you
         in any way across websites nor do we sell your Information to Third-Parties.
       </p>
-
-      <a
-        href="https://plausible.io/data-policy#first-thing-first-what-we-collect-and-what-we-use-it-for"
-        >- Plausible Analytics Data Collection Policy</a
-      >
     </div>
   </div>
 </div>
