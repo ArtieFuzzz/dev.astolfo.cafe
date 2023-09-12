@@ -8,26 +8,11 @@
   class="flex flex-col justify-start items-start mt-10"
   transition:fade={{ duration: 1000, easing: sineIn }}
 >
-  <p>I've been teaching myself programming ever since 2020 and I blame Discord.</p>
-  <p>
-    I first taught myself JavaScript using it to code bots using <a
-      href="https://discord-akairo.github.io/#/">Akairo</a
-    > which is now left unmaintained,
-  </p>
-  <p>
-    then I learned TypeScript and continued creating bots with <a
-      href="https://www.sapphirejs.dev/">Sapphire</a
-    >,
-  </p>
-  <p>
-    later in 2021 I learned Elixir and Rust! (<span class="text-white"
-      >I have attempted to learn C / C++, Dart, and Go</span
-    >)
-  </p>
-  <p>Ever since I started using Rust I use it whenever possible, write tooling, libraries, etc.</p>
-  <p>Now I'm learning how to use Nix.</p>
-  <br />
-  <p>Other than Programming I also love Gaming, Music, and Open-Source.</p>
+  <p>I'm from Australia and I have a passion for programming (+ Open-Source), networking, and anything else relating to
+  technology. I spend most of my free-time with friends, listening to music, and of course programming!</p>
+
+  <p>I love looking for brand new things in the Tech world, right now I'm trying to learn Nix / NixOS!</p>
+  <p>Lastly, please keep in mind I'm shy around new people! It might take a while for us to get along.</p>
 </div>
 
 <style lang="scss">
