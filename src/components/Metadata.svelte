@@ -35,11 +35,6 @@
       <ul><p>...</p></ul>
     </ol>
   </div>
-
-  <div class="flex flex-col justify-start items-start">
-    <h2>Lanyard Statistics</h2>
-
-  </div>
 </div>
 
 <style lang="scss">
