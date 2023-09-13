@@ -1,44 +1,9 @@
 <script lang="ts">
-  import type { Activity, Spotify } from 'sk-lanyard';
   import { useLanyard } from 'sk-lanyard';
+  import { formatLanyardSpotify, formatSingleActivity, notListening } from '../lib/lanyard';
 
   const l = useLanyard({ method: 'ws', id: '389252140184633363' });
   const chance = Math.ceil(Math.random() * 100) / 100;
-
-  /**
-   * Gets the first activity which filters ones with the type of `0`
-   * */
-  function formatSingleActivity(activities: Activity[]) {
-    const activity = activities.filter((a) => a.type === 0)[0];
-
-    return [activity.name, activity.state].join(' ');
-  }
-
-  function formatLanyardSpotify(spotify: Spotify) {
-    return [`'${spotify.song}'`, 'by', `'${spotify.artist}'`, 'on', `'${spotify.album}'`].join(' ');
-  }
-  // let status: string;
-  // let activity: string;
-  // let activityMeta: string;
-  // let spotifySong: string;
-  // let spotifyArtist: string;
-  // let spotifyAlbum: string;
-
-  // if ($lanyard) {
-  //   status = $lanyard.discord_status;
-
-  //   if ($lanyard.activities.length > 0) {
-  //     activity = $lanyard.activities.filter((activity) => activity.type === 0)[0].name;
-  //     activityMeta = $lanyard.activities.filter((activity) => activity.type === 0)[0]
-  //       .state;
-  //   }
-
-  //   if ($lanyard.listening_to_spotify) {
-  //     spotifySong = $lanyard.spotify.song;
-  //     spotifyArtist = $lanyard.spotify.artist;
-  //     spotifyAlbum = $lanyard.spotify.album;
-  //   }
-  // }
 
   console.info(`Your chances were ${chance * 100}%`);
 </script>
@@ -57,13 +22,14 @@
         <code>OFFLINE</code>
       {:else}
         <code>{$l.discord_status.toUpperCase()}</code>
-        {#if $l.activities.length > 0}
+        {#if $l.activities.filter(notListening).length}
           <p>+</p>
-          <code>PLAYING: {formatSingleActivity($l.activities)}</code>
-          {#if $l.listening_to_spotify}
-            <p>+</p>
-            <code>LISTENING TO: {formatLanyardSpotify($l.spotify)}</code>
-          {/if}
+          <code>{formatSingleActivity($l.activities)}</code>
+        {/if}
+
+        {#if $l.listening_to_spotify}
+          <p>+</p>
+          <code>LISTENING TO: {formatLanyardSpotify($l.spotify)}</code>
         {/if}
       {/if}
     {:else}
