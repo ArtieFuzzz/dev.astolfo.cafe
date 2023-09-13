@@ -57,11 +57,13 @@
         <code>OFFLINE</code>
       {:else}
         <code>{$l.discord_status.toUpperCase()}</code>
-        <p>+</p>
-        <code>PLAYING: {formatSingleActivity($l.activities)}</code>
-        {#if $l.listening_to_spotify}
+        {#if $l.activities.length > 0}
           <p>+</p>
-          <code>LISTENING TO: {formatLanyardSpotify($l.spotify)}</code>
+          <code>PLAYING: {formatSingleActivity($l.activities)}</code>
+          {#if $l.listening_to_spotify}
+            <p>+</p>
+            <code>LISTENING TO: {formatLanyardSpotify($l.spotify)}</code>
+          {/if}
         {/if}
       {/if}
     {:else}
