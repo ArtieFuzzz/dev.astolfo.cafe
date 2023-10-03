@@ -12,7 +12,6 @@
   <div class="main-window flex pl-12 pt-12" transition:fade={{ duration: 1000, easing: backIn }}>
     <div class="flex flex-col justify-start items-start">
       <div>
-        <!--  Move Lanyard stats under h1-->
         <MainHeading/>
       </div>
 
