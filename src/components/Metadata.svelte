@@ -1,12 +1,8 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script lang="ts">
-  import { useLanyard } from 'sk-lanyard';
-
+  
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
   const roles = ['Software Developer', 'DevOps'];
-
-  const lanyardData = useLanyard({ method: 'ws', id: '389252140184633363' });
-  let lanyardLoaded = false;
 </script>
 
 <div class="grid grid-flow-row grid-rows-2 sm:flex sm:flex-row justify-start items-start mt-6">
