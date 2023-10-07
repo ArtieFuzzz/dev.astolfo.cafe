@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
-  import { backIn } from 'svelte/easing';
+  import { quadOut } from 'svelte/easing';
   import { fade } from 'svelte/transition';
   import AboutMe from '../components/AboutMe.svelte';
   import MainHeading from '../components/MainHeading.svelte';
@@ -9,7 +9,7 @@
 </script>
 
 <div class="h-screen w-screen flex flex-row justify-evenly items-start">
-  <div class="main-window flex pl-12 pt-12" transition:fade={{ duration: 1000, easing: backIn }}>
+  <div class="main-window flex pl-12 pt-12" transition:fade={{ duration: 1000, easing: quadOut }}>
     <div class="flex flex-col justify-start items-start">
       <div>
         <MainHeading/>

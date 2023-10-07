@@ -1,11 +1,11 @@
 <script>
-  import { backInOut } from 'svelte/easing';
-  import { slide } from 'svelte/transition';
+  import { expoInOut } from 'svelte/easing';
+  import { fade } from 'svelte/transition';
 </script>
 
 <div
   class="side-bar flex flex-col justify-center items-center ml-10"
-  transition:slide={{ delay: 500, duration: 1000, easing: backInOut }}
+  transition:fade={{ delay: 500, duration: 1000, easing: expoInOut }}
 >
   <h2>Side-Bar</h2>
   <a href="/projects">Projects</a>
