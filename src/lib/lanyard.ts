@@ -1,5 +1,5 @@
 // Utilities for sk-lanyard
-import type { Activity, Spotify } from 'sk-lanyard'
+import type { Activity, Spotify } from 'sk-lanyard';
 
 enum ActivityType {
   Playing,
@@ -11,7 +11,7 @@ enum ActivityType {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const notListening = (value: Activity, _index: number, _array: Activity[]) => value.type != 2
+const notListening = (value: Activity, _index: number, _array: Activity[]) => value.type != 2;
 
 function formatSingleActivity(activities: Activity[]) {
   const activity = activities.filter((a) => a.type != 2).filter((a) => a.type != 4)[0];
@@ -38,5 +38,4 @@ function formatLanyardSpotify(spotify: Spotify) {
   return [`'${spotify.song}'`, 'by', `'${spotify.artist}'`, 'on', `'${spotify.album}'`].join(' ');
 }
 
-export { formatLanyardSpotify, formatSingleActivity, notListening }
-
+export { formatLanyardSpotify, formatSingleActivity, notListening };
