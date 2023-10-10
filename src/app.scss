@@ -12,6 +12,10 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
 ::-moz-selection {
   background-color: $select-color;
 }

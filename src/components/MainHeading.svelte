@@ -9,14 +9,14 @@
 </script>
 
 <div>
-  <h1 class="m-3 ml-0 text-4xl sm:text-5xl md:text-7xl">
+  <h1 class="m-3 ml-0 pl-0 text-4xl sm:text-5xl md:text-7xl">
     {#if chance < 0.85}
       Hi, I'm Artie<span>[Fuzzz]</span>!
     {:else}
       Hi, I'm <span>[Not]</span>Artsy!
     {/if}
   </h1>
-  <div class="flex flex-row items-start gap-1 justify-evenly">
+  <div class="ml-1 flex flex-row items-start gap-1 justify-start">
     {#if $l}
       {#if $l.discord_status === 'offline'}
         <code>OFFLINE</code>
