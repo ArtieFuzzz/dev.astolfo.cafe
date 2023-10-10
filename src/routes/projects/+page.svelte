@@ -35,7 +35,7 @@
         {#each projects as project}
           <a href={project.url}
             ><li>
-              <div class="project-item grid grid-flow-row">
+              <div class="project-item grid grid-flow-row p-2">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
               </div>
@@ -57,11 +57,11 @@
   }
 
   .project-item {
-    width: 330px;
-    height: 140px;
+    width: 400px;
+    height: 150px;
     border-width: 5px;
 
-    @apply justify-evenly rounded-md;
+    @apply justify-start rounded-md;
   }
 
   h1 {
@@ -69,7 +69,7 @@
   }
 
   div h3 {
-    @apply mt-2 mb-5;
+    @apply mt-2 mb-3;
   }
 
   p {
