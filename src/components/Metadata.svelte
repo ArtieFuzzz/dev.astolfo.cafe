@@ -3,7 +3,7 @@
   const languages = ['Rust', 'Elixir', 'TypeScript & Deno', 'Dart'];
   const roles = ['Software Developer', 'DevOps'];
   const communications = [
-    { name: 'Matrix', url: 'https://matrix.to/#/@artsy:cat.casa' },
+    { name: 'Matrix', url: 'https://matrix.to/#/@artsy.:cat.casa' },
     { name: 'Email', url: 'mailto:hey@astolfo.cafe' },
     { name: 'PGP', url: '/contact.asc' },
   ];
