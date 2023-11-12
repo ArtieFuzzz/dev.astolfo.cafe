@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script lang="ts">
-  const languages = ['Rust', 'Elixir', 'JS/TS', 'Dart'];
+  const languages = ['Rust', 'Elixir', 'JS/TS'];
   const roles = ['Software Developer', 'DevOps'];
   const communications = [
     { name: 'Matrix', url: 'https://matrix.to/#/@artsy.:cat.casa' },
