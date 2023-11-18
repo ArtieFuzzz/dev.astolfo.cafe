@@ -35,7 +35,7 @@
         {#each projects as project}
           <a href={project.url}
             ><li>
-              <div class="project-item grid grid-flow-row p-2">
+              <div class="project-item grid grid-flow-row p-3">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
               </div>
