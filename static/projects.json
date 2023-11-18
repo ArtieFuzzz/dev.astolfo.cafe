@@ -13,5 +13,10 @@
     "name": "genlicense",
     "description": "A CLI utility to quickly generate a license file, in the terminal!",
     "url": "https://git.sr.ht/~artiefuzzz/genlicense"
+  },
+  {
+    "name": "sushi",
+    "description": "Source code for my API (api.astolfo.cafe)",
+    "url": "https://git.sr.ht/~artiefuzzz/sushi"
   }
 ]
