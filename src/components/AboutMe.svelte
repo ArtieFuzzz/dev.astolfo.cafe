@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="flex flex-col justify-start items-start mt-10 max-w-7xl"
+  class="flex flex-col items-start justify-start mt-10 max-w-7xl"
   transition:fade={{ duration: 1000, easing: sineIn }}
 >
   <p>
