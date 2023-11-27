@@ -20,45 +20,45 @@
   });
 </script>
 
-<div class="h-screen w-screen flex flex-col justify-center items-center">
+<div class="flex flex-col items-center justify-center w-screen h-screen">
   <div class="flex flex-row place-items-baseline">
     <h1 class="pb-3">Projects |</h1>
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a on:click={() => history.back()} href="#" class="ml-5">Jump Back {'>'}</a>
   </div>
   <p>Repositories I've made and / or Contributed to.</p>
-  <div class="mt-6">
+  <div class="flex items-center justify-center w-screen max-w-full p-16 mt-6">
     {#if !projects}
       <h1 class="text-white">Fetching!...</h1>
     {:else}
-      <ul class="grid grid-flow-col">
+      <div class="grid w-screen grid-cols-4 gap-3 p-0">
         {#each projects as project}
-          <a href={project.url}
-            ><li>
-              <div class="project-item grid grid-flow-row p-3">
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
-              </div>
-            </li></a
-          >
+          <a href={project.url} style="width: 340px; height: 180px;">
+            <div class="grid grid-flow-row p-4 project-item">
+              <h3>{project.name}</h3>
+              <p>{project.description}</p>
+            </div>
+          </a>
         {/each}
-      </ul>
+      </div>
     {/if}
   </div>
 </div>
 
-<style class="scss">
-  ul li {
-    @apply m-1;
-  }
+<style lang="scss">
   a {
     list-style-type: none;
     text-decoration: none;
+    transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    &:hover {
+      opacity: 70%
+    }
   }
 
   .project-item {
-    width: 400px;
-    height: 150px;
+    width: 340px;
+    height: 180px;
     border-width: 5px;
 
     @apply justify-start rounded-md;

@@ -18,5 +18,10 @@
     "name": "sushi",
     "description": "Source code for my API (api.astolfo.cafe)",
     "url": "https://git.sr.ht/~artiefuzzz/sushi"
+  },
+  {
+    "name": "birdhouse",
+    "description": "Simple PasteBin written in Rust using Actix.",
+    "url": "https://git.sr.ht/~artiefuzzz/sushi"
   }
 ]
