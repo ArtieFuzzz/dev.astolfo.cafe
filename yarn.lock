@@ -674,8 +674,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^1.5.0":
-  version: 1.29.0
-  resolution: "@sveltejs/kit@npm:1.29.0"
+  version: 1.29.1
+  resolution: "@sveltejs/kit@npm:1.29.1"
   dependencies:
     "@sveltejs/vite-plugin-svelte": "npm:^2.5.0"
     "@types/cookie": "npm:^0.5.1"
@@ -695,7 +695,7 @@ __metadata:
     vite: ^4.0.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 4be3ff07d20edda6573661aa79d2578e4bfc7787d4ea8c0cc71b7606ca66719b4860be63d1497172fbce2a60a77affc9a2a20bb4e4f827a2626f0fdad286a68d
+  checksum: 88c0657a688d7f54d003ca94b73d71d0294e3a3827c683a31299eb3c3dac5babd1177060b368b5378a9b7be11c8613ba0d3e412d85a842a80c8e9e843376557d
   languageName: node
   linkType: hard
 
@@ -3598,8 +3598,8 @@ __metadata:
   linkType: hard
 
 "svelte-preprocess@npm:^5.0.1, svelte-preprocess@npm:^5.1.0":
-  version: 5.1.1
-  resolution: "svelte-preprocess@npm:5.1.1"
+  version: 5.1.2
+  resolution: "svelte-preprocess@npm:5.1.2"
   dependencies:
     "@types/pug": "npm:^2.0.6"
     detect-indent: "npm:^6.1.0"
@@ -3611,7 +3611,7 @@ __metadata:
     coffeescript: ^2.5.1
     less: ^3.11.3 || ^4.0.0
     postcss: ^7 || ^8
-    postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
+    postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     pug: ^3.0.0
     sass: ^1.26.8
     stylus: ^0.55.0
@@ -3639,7 +3639,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 11e725efb4a175a22fd0d4001f987806c585dc605e58927761728a055921553f72f5ccbd08f193579edcec917a3a30960e44b915ba477c94a6aeb3d5eeba28fe
+  checksum: 3cce85abcd6efe8ac2c3060dc8d0614b710d04b287638c6dba8724ebc2a08c14713dab7180ce1dbf202af46a15965a82bd6bd6c5b3095c87af382f18ab0a7ce3
   languageName: node
   linkType: hard
 
@@ -3919,8 +3919,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^5.0.0":
-  version: 5.0.7
-  resolution: "vite@npm:5.0.7"
+  version: 5.0.8
+  resolution: "vite@npm:5.0.8"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -3954,7 +3954,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 27186e5b907484ed17a9cb803bb2127995a1659e1da9eab36bcd7bfac5d11ed41f7136d9913cc27a8c8c49c3fee5c791dee135c5d37653ddfa0153b69dc3f930
+  checksum: ea36e34fa45401d8e29317c3355f4d7081df09b412578bd7b6a26d44bccace9d130625f7f317a3cbc20ad2aadc5881d01d1508e8d9e36060ae44d974f505dd7e
   languageName: node
   linkType: hard
 
