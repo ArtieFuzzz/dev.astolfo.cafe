@@ -448,13 +448,13 @@ __metadata:
   linkType: hard
 
 "@iconify/svelte@npm:^3.1.0":
-  version: 3.1.4
-  resolution: "@iconify/svelte@npm:3.1.4"
+  version: 3.1.6
+  resolution: "@iconify/svelte@npm:3.1.6"
   dependencies:
     "@iconify/types": "npm:^2.0.0"
   peerDependencies:
     svelte: "*"
-  checksum: 85e8af3055ed5f893a07ab38c90ae25cef83d4d2166cc2f90b6eacf251d718ee86bfc64480585a0e8ca734c115ae5bdd8c8b77ace074b300df8f46c32b416ff0
+  checksum: 964e3cbaccfc1e8beef787d07a0b31eb4bd3794dc6581e04879b5fb07f228d3e2facfc4587566288d693cd6f1f0950f18747f6127df8eecd414b7efc4933b670
   languageName: node
   linkType: hard
 
