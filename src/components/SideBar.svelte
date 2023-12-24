@@ -13,6 +13,13 @@
   <a href="https://sr.ht/~artiefuzzz">SourceHut</a>
   <a href="https://www.codewars.com/users/ArtieFuzzz">CodeWars</a>
   <a href="/privacy">Privacy Policy</a>
+
+  <p>
+    <a href="https://fediring.net/previous?host=dev.astolfo.cafe">←</a>
+    <a href="https://fediring.net/">Fediring</a>
+    <a href="https://fediring.net/next?host=dev.astolfo.cafe">→</a>
+  </p>
+
   <p>read if cute!</p>
 </div>
 
