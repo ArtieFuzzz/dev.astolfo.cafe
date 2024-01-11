@@ -13,7 +13,6 @@
   <a href="https://sr.ht/~artiefuzzz">SourceHut</a>
   <a href="https://www.codewars.com/users/ArtieFuzzz">CodeWars</a>
   <a href="/privacy">Privacy Policy</a>
-  <p>read if cute!</p>
 </div>
 
 <style lang="scss">

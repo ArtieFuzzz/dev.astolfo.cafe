@@ -4,7 +4,7 @@
   import OnMount from '../components/OnMount.svelte';
 </script>
 
-<div class="prose prose-zinc">
+<div class="max-w-full prose prose-zinc">
   <OnMount>
     <slot />
   </OnMount>

@@ -8,11 +8,11 @@
   import SideBar from '../components/SideBar.svelte';
 </script>
 
-<div class="flex flex-row items-start w-screen h-screen justify-evenly">
+<div class="max-w-full flex flex-row items-start w-screen h-screen justify-evenly">
   <div class="flex pt-12 pl-12 main-window" transition:fade={{ duration: 1000, easing: quadOut }}>
     <div class="flex flex-col items-start justify-start">
       <div>
-        <MainHeading/>
+        <MainHeading />
       </div>
 
       <AboutMe />

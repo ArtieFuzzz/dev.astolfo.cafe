@@ -1,10 +1,4 @@
 {
   "nuxt.isNuxtApp": false,
-  "cSpell.words": [
-    "Akairo",
-    "Fediring",
-    "genlicense",
-    "tailwindcss",
-    "umami"
-  ]
+  "cSpell.words": ["Akairo", "Fediring", "genlicense", "tailwindcss", "umami"]
 }
