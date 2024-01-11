@@ -34,7 +34,7 @@ __metadata:
   resolution: "@artiefuzzz/dev-astolfo-cafe@workspace:."
   dependencies:
     "@iconify/svelte": "npm:^3.1.0"
-    "@sveltejs/adapter-auto": "npm:^2.0.0"
+    "@sveltejs/adapter-auto": "npm:^3.0.0"
     "@sveltejs/kit": "npm:^2.0.0"
     "@tailwindcss/typography": "npm:^0.5.9"
     "@typescript-eslint/eslint-plugin": "npm:^6.0.0"
@@ -655,14 +655,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.0":
-  version: 2.1.1
-  resolution: "@sveltejs/adapter-auto@npm:2.1.1"
+"@sveltejs/adapter-auto@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "@sveltejs/adapter-auto@npm:3.1.0"
   dependencies:
     import-meta-resolve: "npm:^4.0.0"
   peerDependencies:
-    "@sveltejs/kit": ^1.0.0
-  checksum: 8fd230d8727d88c26596b2d7375b0274f01925ec6771b83b89844245aeddd62d7d97020a80df3c047a7abaf0ac9a45c8131435b1b1068dcc5fe1106df98f867d
+    "@sveltejs/kit": ^2.0.0
+  checksum: b1ea2459134ef40259403a3e9ac39284adddd8981b67ad26abf8e61ad1e304f053890acf405079e960d2609d16cded914be211d457fb8235dc2f72041f7c7c9d
   languageName: node
   linkType: hard
 
