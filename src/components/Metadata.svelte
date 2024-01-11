@@ -18,8 +18,6 @@
           <p>{lang}</p>
         </li>
       {/each}
-
-      <ul><p>...</p></ul>
     </ol>
   </div>
 
@@ -31,8 +29,6 @@
           <p>{role}</p>
         </li>
       {/each}
-
-      <ul><p>...</p></ul>
     </ol>
   </div>
 
@@ -44,8 +40,6 @@
           <a href={contact.url}>{contact.name}</a>
         </li>
       {/each}
-
-      <ul><p>...</p></ul>
     </ol>
   </div>
 </div>
