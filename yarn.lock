@@ -34,7 +34,7 @@ __metadata:
   resolution: "@artiefuzzz/dev-astolfo-cafe@workspace:."
   dependencies:
     "@iconify/svelte": "npm:^3.1.0"
-    "@sveltejs/adapter-vercel": "npm:^4.0.4"
+    "@sveltejs/adapter-vercel": "npm:^5.0.0"
     "@sveltejs/kit": "npm:^2.0.0"
     "@sveltejs/vite-plugin-svelte": "npm:^3.0.1"
     "@tailwindcss/typography": "npm:^0.5.9"
@@ -846,15 +846,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-vercel@npm:^4.0.4":
-  version: 4.0.5
-  resolution: "@sveltejs/adapter-vercel@npm:4.0.5"
+"@sveltejs/adapter-vercel@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "@sveltejs/adapter-vercel@npm:5.1.0"
   dependencies:
     "@vercel/nft": "npm:^0.26.1"
     esbuild: "npm:^0.19.11"
   peerDependencies:
-    "@sveltejs/kit": ^2.0.0
-  checksum: 10/e7a5416e118ec1ee6de4626b4df3c68fbce620449453b0b969540da587dd9b97a042ad0c4499c38b2ec13195d75d30ec76e66616b22cef2a413e89f5681d2558
+    "@sveltejs/kit": ^2.4.0
+  checksum: 10/ad74ab7908251936c58826254895cc27085baa7e6b3eae5860d13643d32edc26360187bdd4b674e523e4715440c7656e95be5666584a55321747332bb1bee1d4
   languageName: node
   linkType: hard
 
