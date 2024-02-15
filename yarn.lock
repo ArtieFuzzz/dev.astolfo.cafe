@@ -3473,12 +3473,12 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-svelte@npm:^3.0.0":
-  version: 3.2.0
-  resolution: "prettier-plugin-svelte@npm:3.2.0"
+  version: 3.2.1
+  resolution: "prettier-plugin-svelte@npm:3.2.1"
   peerDependencies:
     prettier: ^3.0.0
     svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
-  checksum: 10/f38575fe9322f87bd0247ac4b1bdfe5ac6b081976fba4500d9e6a9351869986197c74f7e912d5cc924305b50bb15b1b9bf8d21ecaa7b8a9b89781273518782e7
+  checksum: 10/101866f486fceeba4a833618477a73dcdc899bdf2c3dd35c39bcf5722f0096659de0241ffbbc44d116bd3a0cc1cfc0bd0906ed6b8e3abaf71e48fbffbcb7db6b
   languageName: node
   linkType: hard
 
@@ -4359,8 +4359,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^5.0.0":
-  version: 5.1.1
-  resolution: "vite@npm:5.1.1"
+  version: 5.1.2
+  resolution: "vite@npm:5.1.2"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -4394,7 +4394,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/bdb8e683caddaa0a9adcbf40144ca8ea3660836b208862b07d43787ea867845919af16e58745365bd13ed3b7f66bbf9788a6869ee22cfaacac01645b59729c34
+  checksum: 10/fbfc5a84ee33c01cd2c3109ba08c2f3822df9a85bee79179ba5a812757f895e2da234208881b9943291d48b0a4ef8fb90ffaa790d89888530a2ad6c70c169e12
   languageName: node
   linkType: hard
 
