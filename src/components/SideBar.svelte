@@ -7,8 +7,8 @@
   const openSideBar = () => (isOpen = !isOpen);
 </script>
 
-<button on:click={openSideBar}
-  ><p>
+<button on:click={openSideBar} class='pt-6'
+  ><p class={`${isOpen ? "hover:animate-rpoint" : "hover:animate-lpoint"}`}>
     {isOpen ? '>>' : '<<'}
   </p></button
 >
@@ -43,10 +43,38 @@
     }
   }
 
+  @keyframes point-left {
+    0% {
+      @apply translate-x-3
+    }
+
+    20% {
+      @apply translate-x-6
+    }
+
+    40% {
+      @apply translate-x-3
+    }
+  }
+
+  @keyframes point-right {
+    0% {
+      @apply -translate-x-3
+    }
+
+    20% {
+      @apply -translate-x-6
+    }
+
+    40% {
+      @apply -translate-x-3
+    }
+  }
+
   p {
     padding: 0;
     margin: 0;
     color: #ff838d;
-    @apply font-mono text-lg;
+    @apply font-mono text-3xl;
   }
 </style>
