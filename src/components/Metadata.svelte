@@ -5,11 +5,12 @@
   const communications = [
     { name: 'Matrix', url: 'https://matrix.to/#/@artsy.:cat.casa' },
     { name: 'Email', url: 'mailto:hey@astolfo.cafe' },
-    { name: 'PGP', url: '/contact.asc' }
+    { name: 'PGP Publickey', url: '/proton.asc' },
+    { name: 'Backup Publickey', url: '/yubikey.asc'}
   ];
 </script>
 
-<div class="grid grid-flow-row grid-rows-2 sm:flex sm:flex-row justify-start items-start mt-6">
+<div class="grid items-start justify-start grid-flow-row grid-rows-2 mt-6 sm:flex sm:flex-row">
   <div class="w-[20vw] flex flex-col justify-start items-start">
     <h2>Languages</h2>
     <ol>
