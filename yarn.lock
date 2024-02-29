@@ -3473,12 +3473,12 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-svelte@npm:^3.0.0":
-  version: 3.2.1
-  resolution: "prettier-plugin-svelte@npm:3.2.1"
+  version: 3.2.2
+  resolution: "prettier-plugin-svelte@npm:3.2.2"
   peerDependencies:
     prettier: ^3.0.0
     svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
-  checksum: 10/101866f486fceeba4a833618477a73dcdc899bdf2c3dd35c39bcf5722f0096659de0241ffbbc44d116bd3a0cc1cfc0bd0906ed6b8e3abaf71e48fbffbcb7db6b
+  checksum: 10/c824dc8e2d533059058db5b3c17ea49141401c4c3aa7f320eb76caa23bd4392019b837a4f98e62b91589844e18ad7fe8148671260fc08b04a3b5db0190d0c7bd
   languageName: node
   linkType: hard
 
