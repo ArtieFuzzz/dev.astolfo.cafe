@@ -859,8 +859,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^2.0.0":
-  version: 2.5.3
-  resolution: "@sveltejs/kit@npm:2.5.3"
+  version: 2.5.4
+  resolution: "@sveltejs/kit@npm:2.5.4"
   dependencies:
     "@types/cookie": "npm:^0.6.0"
     cookie: "npm:^0.6.0"
@@ -880,7 +880,7 @@ __metadata:
     vite: ^5.0.3
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10/532653275ff06142f8cf396af8691bbb4b8a2d209bb129fb3eba3a266ce1337dcd915edc86ba0ceb3c20ce7a2ffbfb62631346efdbec071a4565e764688d8a17
+  checksum: 10/73e657174d73397e87bee0f064b57f234b5e0a9a788f4838b2324cece5544af08bd402162b789d924d1e578509c9eb73bfc8325939f62aaddbc7ead719d0e9e1
   languageName: node
   linkType: hard
 
@@ -3762,15 +3762,15 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.58.0":
-  version: 1.71.1
-  resolution: "sass@npm:1.71.1"
+  version: 1.72.0
+  resolution: "sass@npm:1.72.0"
   dependencies:
     chokidar: "npm:>=3.0.0 <4.0.0"
     immutable: "npm:^4.0.0"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 10/51e3c667e262a80db9c80f31109dabd8d5b9a6f79e8e8aa627d83564607036ee0b13b1921d14fd317437d8cf7030d7c8cf1c3b7e11b1f4537a4a4029f6cb63a3
+  checksum: 10/637b002f9ca7888c4535a51819a3983a4638dd0a1f31aab817ae276b7fc2c3a7ab2a268d8249131810fbbd6d2cb9bd25d045008b01eda53c3ff8aa843850348d
   languageName: node
   linkType: hard
 
