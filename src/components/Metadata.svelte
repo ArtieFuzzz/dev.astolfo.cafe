@@ -3,10 +3,10 @@
   const languages = ['Rust', 'Elixir', 'JS/TS'];
   const roles = ['Software Developer', 'DevOps'];
   const communications = [
-    { name: 'Matrix', url: 'https://matrix.to/#/@artsy.:cat.casa' },
+    { name: 'Matrix', url: 'https://matrix.to/#/@artsy.:astolfo.cafe' },
     { name: 'Email', url: 'mailto:hey@astolfo.cafe' },
     { name: 'PGP Publickey', url: '/proton.asc' },
-    { name: 'Backup Publickey', url: '/yubikey.asc'}
+    { name: 'Backup Publickey', url: '/yubikey.asc' }
   ];
 </script>
 
