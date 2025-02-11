@@ -1,0 +1,49 @@
+@import url("https://api.fonts.coollabs.io/css2?family=Cabin&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --select-color: #ff838d;
+}
+
+body {
+  background-color: #191717;
+  font-family: "Cabin", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+}
+
+::-moz-selection {
+  background-color: var(--select-color);
+}
+
+::selection {
+  background-color: var(--select-color);
+}
+
+.main-window {
+  width: 100vw;
+}
+
+.side-bar {
+  width: 15vw;
+}
+
+a {
+  text-decoration: none;
+  @apply text-xl;
+}
+
+span {
+  color: white;
+}
+
+code {
+  background-color: white;
+  color: black;
+  padding: 3px 0 3px 0;
+}
