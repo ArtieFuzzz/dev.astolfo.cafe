@@ -12,7 +12,7 @@
     "format": "biome check . --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.1.2",
     "@iconify/svelte": "^4.0.0",
     "@sveltejs/adapter-vercel": "^5.0.0",
     "@sveltejs/kit": "^2.0.0",
